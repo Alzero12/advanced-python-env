@@ -1,6 +1,6 @@
 import json
 
-with open("students.json", "r") as f:
+with open("myjava.json", "r") as f:
     data = json.load(f)
 
 for student in data:
@@ -8,5 +8,5 @@ for student in data:
     avg = sum(marks) / len(marks)
     student["average_grade"] = avg
 
-with open("updated_students.json", "w") as out:
+with open("updated.json", "w") as out:
     json.dump(data, out, indent=4)

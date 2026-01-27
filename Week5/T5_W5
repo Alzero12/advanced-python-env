@@ -26,6 +26,6 @@ class BankAccount:
 account = BankAccount("Balma", 50000)
 account.deposit(1500)
 account.withdraw(15000)
-account.withdraw(6000)
+account.withdraw(60000)
 account.deposit(-450)
 print(f"Current balance: {account.balance()}")

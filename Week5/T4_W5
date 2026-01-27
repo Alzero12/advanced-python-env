@@ -33,7 +33,7 @@ def show_info(staff):
 
 
 m = Manager("Almansur", 25, 900, 2000)
-e1 = Employee("Artut", 19, 450)
+e1 = Employee("Artur", 19, 450)
 e2 = Employee("Aibar", 21, 1000)
 
 staff = [m, e1, e2]
